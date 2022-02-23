@@ -15,7 +15,7 @@
     "@fortawesome/react-fontawesome": "^0.1.11",
     "@ramonak/react-progress-bar": "^1.0.3",
     "emailjs-com": "^2.6.3",
-    "next": "9.5.5",
+    "next": "12",
     "react": "16.14.0",
     "react-circular-progressbar": "^2.0.3",
     "react-dom": "16.14.0",
