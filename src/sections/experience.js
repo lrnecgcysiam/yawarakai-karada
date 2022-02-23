@@ -33,23 +33,19 @@ export default function Experience() {
             <div className="cardCont">
               <h5>
                 <span>
-                  <FontAwesomeIcon icon={faCalendarAlt} /> 2012 - 2013
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2016-2017
                 </span>
               </h5>
-              <h3>Web Developer</h3>
-              <h4>National Association for Professional Women</h4>
+              <h3> Consultant | Jetblue Airways </h3>
+              <h4> Software Developer Consultant</h4>
               <ul>
                 <li>
                   <span className="colorRed">- </span>
-                  <span>Web Programmer for a social network for Working Professionals</span>
+                  <span>Front End Web Development (Angular)</span>
                 </li>
                 <li>
                   <span className="colorRed">- </span>{' '}
-                  <span>Coldfusion Programming, Plugins, SQL</span>
-                </li>
-                <li>
-                  <span className="colorRed">- </span>{' '}
-                  <span>Full Stack Web Development</span>
+                  <span>Server-side Development (NodeJS)</span>
                 </li>
               </ul>
             </div>
@@ -80,19 +76,43 @@ export default function Experience() {
             <div className="cardCont">
               <h5>
                 <span>
-                  <FontAwesomeIcon icon={faCalendarAlt} /> 2016-2017
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2014-2015
                 </span>
               </h5>
-              <h3> Consultant | Jetblue Airways </h3>
-              <h4> Software Developer Consultant</h4>
+              <h3>Consultant | Cablevision System - Emedia</h3>
+              {/* <h4>KAR{' & '}MA S.A.C.</h4> */}
+              <h4> Applications Developer Consultant</h4>
               <ul>
                 <li>
                   <span className="colorRed">- </span>
-                  <span>Front End Web Development (Angular)</span>
+                  <span>Client-Side Web Development (Angular)</span>
                 </li>
                 <li>
                   <span className="colorRed">- </span>{' '}
-                  <span>Server-side Development (NodeJS)</span>
+                  <span> Server-Side Development (Drupal)</span>
+                </li>
+              </ul>
+            </div>
+            <div className="cardCont">
+              <h5>
+                <span>
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2012 - 2013
+                </span>
+              </h5>
+              <h3>Web Developer</h3>
+              <h4>National Association for Professional Women</h4>
+              <ul>
+                <li>
+                  <span className="colorRed">- </span>
+                  <span>Web Programmer for a social network for Working Professionals</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Coldfusion Programming, Plugins, SQL</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Full Stack Web Development</span>
                 </li>
               </ul>
             </div>

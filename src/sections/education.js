@@ -11,19 +11,17 @@ export default function Education() {
       <div className="cardContainer">
         <div className="card">
           <div className="cardContent">
-            <div className="cardCont">
+          <div className="cardCont">
               <h5>
                 <span>
-                  {" "}
-                  <FontAwesomeIcon icon={faCalendarAlt} /> 2001 - 2005
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2010 - 2021
                 </span>
               </h5>
-              <h3>Briarcliffe College</h3>
-              <h4>Bachelor of Fine Arts</h4>
+              <h3>CUNY at Brooklyn College</h3>
+              <h4>Master of Arts</h4>
               <ul>
                 <li>
-                  <span className="colorRed">- </span>
-                  <span>Visual Communications</span>
+                  <span className="colorRed">- </span> <span> Computer Science </span>
                 </li>
               </ul>
             </div>
@@ -38,6 +36,22 @@ export default function Education() {
               <ul>
                 <li>
                   <span className="colorRed">- </span> <span> Technology Systems Management</span>
+                </li>
+              </ul>
+            </div>
+            <div className="cardCont">
+              <h5>
+                <span>
+                  {" "}
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2001 - 2005
+                </span>
+              </h5>
+              <h3>Briarcliffe College</h3>
+              <h4>Bachelor of Fine Arts</h4>
+              <ul>
+                <li>
+                  <span className="colorRed">- </span>
+                  <span>Visual Communications</span>
                 </li>
               </ul>
             </div>

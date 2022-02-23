@@ -5,8 +5,8 @@ import { useContext } from 'react';
 import { Contexto } from '../appContext';
 
 export default function Banner() {
-  const name = 'Francisco Pantoja';
-  const email = 'franciscopantojag98@gmail.com';
+  const name = 'Chris Samuel';
+  const email = 'Chris.k.samuel@protonmail.com';
   const { setIsOpen } = useContext(Contexto);
 
   function openModal() {
@@ -17,41 +17,41 @@ export default function Banner() {
       <div className={`containerCont ${styles.bannerCont}`}>
         <section className={styles.bannerContLeft}>
           <h2>
-            Hi there{' '}
+            Salutations{' '}
             <span role="img" aria-label="hello">
-              👋
+              
             </span>
             , I'm
           </h2>
           <h1>{name}</h1>
           <h2>
-            Web Developer |
+            Creative Technologist 
             <span className={styles.brH2}>
               <br />
             </span>{' '}
-            Bachelor of Engineering
+           
           </h2>
-          <h3>HTML / CSS / JS / React</h3>
+          <h3>HTML / CSS / JS / Angular/ React /</h3>
           <h3>
             <a href={`mailto:${email}`}>{email}</a>
           </h3>
           <div className={`${styles.buttons}`}>
             <div>
               <button className={`${styles.but}`}>
-                <a target="_blank" href="/pdf/resume_francisco_pantoja.pdf">
+                <a target="_blank" href="/pdf/Chris Samuel Resume.pdf">
                   DOWNLOAD RESUME
                 </a>
               </button>
               <button className={`${styles.svgBut}`}>
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/franciscopantojaguillen/"
+                  href="https://www.linkedin.com/in/cksamuel/"
                 >
                   <Linkedin />
                 </a>
               </button>
               <button className={`${styles.svgBut}`}>
-                <a target="_blank" href="https://github.com/franciscopantojag">
+                <a target="_blank" href="https://github.com/alayode">
                   <Github />
                 </a>
               </button>
@@ -63,7 +63,7 @@ export default function Banner() {
           </div>
         </section>
         <figure className={styles.bannerContRight}>
-          <img alt="Francisco Pantoja" src="/images/profilePicture.jpg" />
+          <img alt="Chris Samuel" src="/images/amaze.thunderstruck.me.jpg" />
         </figure>
       </div>
     </section>
