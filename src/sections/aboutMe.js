@@ -8,7 +8,7 @@ export default function AboutMe() {
     setIsOpen(true);
   }
 
-  const email = 'franciscopantojag98@gmail.com';
+  const email = 'chris.k.samuel@protonmail.com';
   return (
     <section className="container">
       <div className="containerCont sectionCont sectionContAbout">
@@ -16,21 +16,15 @@ export default function AboutMe() {
         <header>
           <h2>about me</h2>
           <h3>
-            Hi! My name is Francisco Pantoja,{' '}
-            <span className="colorRed">Web Developer</span>
+            Salutations! My name is Chris Samuel,{' '}
+            <span className="colorRed">Creative Technologist</span>
           </h3>
         </header>
 
         <p>
-          I am a peruvian software developer, focused on web technologies. I
-          have experience using some programming languages such as JavaScript
-          and Python, in collaboration with HTML and CSS to build amazing and
-          complex web sites; involving beautiful interfaces, client side logic
-          (front-end), and server side logic (back-end). I have knowledge in
-          Computer Science, Responsive Web Design, Object Oriented Programming,
-          APIs and Microservices, Database Management, graphic design, video
-          editing, among others. For the projects in which I was involved, I've
-          used the version control system Git, together with Github.
+          I am a American Creative Technologist based in New York City.{' '}
+          I love working on all things tech. I spent the last 20 years making sure 
+          that I would definitely want to do this for the rest of my life. 
         </p>
         <p>
           I am very passionate and dedicated to my work, i have plenty of
@@ -46,7 +40,7 @@ export default function AboutMe() {
           </strong>
           ; also you are more than welcome to follow my work on my{' '}
           <strong>
-            <a target="_blank" href="https://github.com/franciscopantojag">
+            <a target="_blank" href="https://github.com/lrnecgysiam.com">
               github
             </a>
           </strong>{' '}
@@ -54,7 +48,7 @@ export default function AboutMe() {
           <strong>
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/franciscopantojaguillen/"
+              href="https://www.linkedin.com/in/cksamuel/"
             >
               linkedin
             </a>
