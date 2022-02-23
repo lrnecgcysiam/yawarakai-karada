@@ -15,7 +15,9 @@ export default function Skills() {
   const overallCirSkills = [
     { name: "Web Development", progress: "90" },
     { name: "Database Management", progress: "75" },
-    { name: "OOP", progress: "85" },
+    { name: "NodeJS", progress: "85" },
+    { name: "Machine Learning", progress: "85" },
+    { name: "Unix", progress: "80" },
   ];
   const softSkills = [
     "TeamWork",
@@ -26,10 +28,10 @@ export default function Skills() {
   const softwareSkills = [
     { name: "VS Code", progress: "80" },
     { name: "Bash", progress: "50" },
-    { name: "AutoCAD", progress: "75" },
-    { name: "Premiere", progress: "75" },
-    { name: "Photoshop", progress: "60" },
-    { name: "MS Excel", progress: "90" },
+    { name: "RaspberryPi", progress: "50" },
+    { name: "Google Cloud", progress: "60" },
+    { name: "Amazon Web Services", progress: "60" },
+
   ];
   return (
     <section className="container">
