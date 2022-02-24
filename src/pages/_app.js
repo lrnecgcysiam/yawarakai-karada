@@ -6,6 +6,18 @@ import { useEffect } from "react";
 import smoothscroll from "smoothscroll-polyfill";
 import { ContextoProvider } from "../appContext";
 import Modal from "react-modal";
+
+// For Full Story
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import * as FullStory from '@fullstory/browser';
+// FullStory.init({ orgId: '184BRR' });
+
+
+// ReactDOM.render(<MyApp />, document.getElementById('root'));
+
+
+
 config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }) {

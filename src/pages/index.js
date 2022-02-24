@@ -8,14 +8,6 @@ import Skills from "../sections/skills";
 import Modal from "../components/modal";
 import { Contexto } from "../appContext";
 import { useContext } from "react";
-import React from 'react';
-import ReactDOM from 'react-dom';
-import * as FullStory from '@fullstory/browser';
-
-
-FullStory.init({ orgId: '184BRR' });
-
-// ReactDOM.render(<App />, document.getElementById('root'));
 
 export default function Home() {
   const { navResOpen, setNavResOpen } = useContext(Contexto);
