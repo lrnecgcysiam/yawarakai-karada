@@ -10,14 +10,12 @@ import { Contexto } from "../appContext";
 import { useContext } from "react";
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import * as FullStory from '@fullstory/browser';
 
 
 FullStory.init({ orgId: '184BRR' });
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<App />, document.getElementById('root'));
 
 export default function Home() {
   const { navResOpen, setNavResOpen } = useContext(Contexto);
