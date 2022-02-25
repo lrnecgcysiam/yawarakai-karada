@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarAlt } from "@fortawesome/free-regular-svg-icons";
 
+
 export default function Education() {
   return (
     <section className="sectionCont sectionContEducation">
@@ -14,7 +15,7 @@ export default function Education() {
           <div className="cardCont">
               <h5>
                 <span>
-                  <FontAwesomeIcon icon={faCalendarAlt} /> 2010 - 2021
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 2021 - 2022
                 </span>
               </h5>
               <h3>CUNY at Brooklyn College</h3>
