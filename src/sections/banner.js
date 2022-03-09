@@ -38,7 +38,7 @@ export default function Banner() {
           <div className={`${styles.buttons}`}>
             <div>
               <button className={`${styles.but}`}>
-                <a target="_blank" href="/pdf/Chris Samuel Resume.pdf">
+                <a target="_blank" href="/pdf/csamuel.resume.pdf">
                   DOWNLOAD RESUME
                 </a>
               </button>
