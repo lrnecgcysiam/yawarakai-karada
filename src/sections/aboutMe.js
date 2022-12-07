@@ -22,9 +22,10 @@ export default function AboutMe() {
         </header>
 
         <p>
-          I am a American Creative Technologist based in New York City.{' '}
-          I love working on all things tech. I spent the last 20 years making sure 
-          that I would definitely want to do this for the rest of my life. 
+        I am an American Creative Technologist based in New York City. 
+        I love working on all things tech. {' '}
+        I spent the last 20 years making sure that I would want to do
+        this for the rest of my life.
         </p>
         <p>
           I am very passionate and dedicated to my work, i have plenty of
